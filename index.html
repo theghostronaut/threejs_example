@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Example</title>
+        <link rel="stylesheet" href="/style.css">
+        <script type="module" src="/overlay.js" defer></script>
+	</head>
+	<body>
+        <div class="overlay" id="overlay">
+            <div class="overlay-content">
+              <button class="close-btn" onclick="closeOverlay()">Close</button>
+              <p id="overlayText"></p>
+            </div>
+          </div>
+          
+          <div class="buttons">
+            <button onclick="openOverlay(0)">Help</button>
+          </div>
+        <script type="module" src="/main.js"></script>
+	</body>
+</html>
